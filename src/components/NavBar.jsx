@@ -1,30 +1,32 @@
 import React from "react";
+import {Link,NavLink} from "react-router-dom";
 import CartWidgts from "./cartwidgets";
+
 
 const NavBar = () =>{
     return(
-        <div className="conatiner">
+        <div className="container">
             <div className="row">
                 <div className="col-md-6">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="/logo"><img src={"images/logo.webp"} alt="logo tool" width={100}/></a>
+                            <Link className="navbar-brand" to={"/"}><img src={"/images/logo.webp"} alt="logo tool" width={100}/></Link>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="/rachet">rachet</a>
+                                    <NavLink className="nav-link" aria-current="page" to={"/category/rachet"}>rachet</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/wrenc">wrench</a>
+                                    <NavLink className="nav-link" to={"/category/llaves"}>wrench</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/screwdrivers">screwdrivers</a>
+                                    <NavLink className="nav-link" to={"/category/power tool"}>Power tools</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" href="/sockets">sockets</a>
+                                <NavLink className="nav-link" to={"/category/sockets"}>sockets</NavLink>
                                 </li>
                             </ul>
                         </div>

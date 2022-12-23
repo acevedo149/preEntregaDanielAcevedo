@@ -6,7 +6,7 @@ const Promocion =() => {
             <div className="conatier pt-5">
                 <div className="row">
                     <div className="col-md-6 text-center">
-                        <img src={"images/wrench.png"} alt={"wrench"} width={350}/>
+                        <img src={"/images/wrench.png"} alt={"wrench"} width={350}/>
                     </div>
                     <div className="col-md-6 d-flex align-item-end">
                         <div>

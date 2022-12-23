@@ -1,15 +1,15 @@
 [
     {
-        "id": 1, "nombre":"llaves", "description": "llave de mano en 9/16 in", "imagen":"https://snap-on-products-hr.imgix.net/SOXRR18A.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":20, "stock": 10, "categoria": "hand tool llaves"
+        "id": 1, "nombre":"llaves", "description": "llave de mano en 9/16 in", "imagen":"https://snap-on-products-hr.imgix.net/SOXRR18A.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":20, "stock": 10, "categoria": "llaves"
     },
     {
-        "id": 2, "nombre":"llaves", "description": "llave de mano en  1/2 in", "imagen":"https://snap-on-products-hr.imgix.net/SOXRR16A.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":15, "stock": 9, "categoria": "hand tool llaves"
+        "id": 2, "nombre":"llaves", "description": "llave de mano en  1/2 in", "imagen":"https://snap-on-products-hr.imgix.net/SOXRR16A.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":15, "stock": 9, "categoria": "llaves"
     },
     {
-        "id": 3, "nombre":"Ratchet", "description": "Rachet 1/4 in", "imagen":"https://snap-on-products-hr.imgix.net/THNF72.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":100, "stock": 8, "categoria": "hand tool ratchets"
+        "id": 3, "nombre":"Ratchet", "description": "Rachet 1/4 in", "imagen":"https://snap-on-products-hr.imgix.net/THNF72.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":100, "stock": 8, "categoria": "ratchet"
     },
     {
-        "id": 4, "nombre":"Ratchet", "description": "Ratchet de 1/4 in", "imagen":"https://snap-on-products-hr.imgix.net/TNF72.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":80, "stock": 7, "categoria": "hand tool ratchets"
+        "id": 4, "nombre":"Ratchet", "description": "Ratchet de 1/4 in", "imagen":"https://snap-on-products-hr.imgix.net/TNF72.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":80, "stock": 7, "categoria": "ratchet"
     },
     {
         "id": 5, "nombre":"Air Ratchet", "description": "Air Ratchet", "imagen":"https://snap-on-products-hr.imgix.net/PTR72.jpg??w=600&dpr=1&auto=format&fit=max&q=30"   , "precio":300, "stock": 6, "categoria": "power tool"
